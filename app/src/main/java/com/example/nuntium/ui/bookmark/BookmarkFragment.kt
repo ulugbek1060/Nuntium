@@ -27,6 +27,7 @@ class BookmarkFragment : ContainsFragment(R.layout.fragment_bookmark) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         App.appComponent.injectBookmarkFragment(this)
+        println()
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
