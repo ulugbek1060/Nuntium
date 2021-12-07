@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.cabinet.LanguageFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:src="@drawable/ic_left_icon_end" />
+
+        <TextView
+            android:id="@+id/tv_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/sf_ui_text_regular"
+            android:gravity="center"
+            android:text="@string/language"
+            android:textColor="@color/color_text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/btn_en"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_group_back"
+            android:button="@android:color/transparent"
+            android:elevation="0dp"
+            android:fontFamily="@font/sf_ui_text_regular"
+            android:gravity="start|center_vertical"
+            android:padding="18dp"
+            android:text="@string/english"
+            android:textAllCaps="false"
+            android:textColor="@drawable/radio_text_back"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/btn_tr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_group_back"
+            android:button="@android:color/transparent"
+            android:elevation="0dp"
+            android:fontFamily="@font/sf_ui_text_regular"
+            android:gravity="start|center_vertical"
+            android:padding="18dp"
+            android:text="@string/turkish"
+            android:textAllCaps="false"
+            android:textColor="@drawable/radio_text_back"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/btn_de"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_group_back"
+            android:button="@android:color/transparent"
+            android:elevation="0dp"
+            android:fontFamily="@font/sf_ui_text_regular"
+            android:gravity="start|center_vertical"
+            android:padding="18dp"
+            android:text="@string/german"
+            android:textAllCaps="false"
+            android:textColor="@drawable/radio_text_back"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/btn_se"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_group_back"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:elevation="0dp"
+            android:fontFamily="@font/sf_ui_text_regular"
+            android:gravity="start|center_vertical"
+            android:padding="18dp"
+            android:text="@string/spanish"
+            android:textAllCaps="false"
+            android:textColor="@drawable/radio_text_back"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+</LinearLayout>

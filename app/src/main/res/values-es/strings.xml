@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Nuntium</string>
+    <string name="browse">Navegar</string>
+    <string name="discover_things_of_this_world">Descubre cosas de este mundo</string>
+    <string name="search">     Buscar</string>
+    <string name="select_your_favorite_topics">Seleccione sus temas favoritos</string>
+    <string name="select_some_of_your_favorite_topics_to_let_us_suggest_better_news_for_you">Seleccione algunos de sus temas favoritos para que podamos sugerirle mejores noticias.</string>
+    <string name="you_haven_t_saved_any_articles_yet_start_reading_and_bookmarking_them_now">Aún no has guardado ningún artículo. Empiece a leer y a marcarlos ahora</string>
+    <string name="bookmarks">Marcadores</string>
+    <string name="saved_articles_to_the_library">Artículos guardados en la biblioteca</string>
+    <string name="language">Idioma</string>
+    <string name="light_mode">Modo de luz</string>
+    <string name="settings">Ajustes</string>
+    <string name="english">Inglés</string>
+    <string name="turkish">Turco</string>
+    <string name="german">Alemán</string>
+    <string name="spanish">Español</string>
+    <string name="you_are_offline_mode">estás en modo fuera de línea</string>
+</resources>
