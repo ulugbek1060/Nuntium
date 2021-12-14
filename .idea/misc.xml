@@ -74,7 +74,7 @@
         <entry key="app/src/main/res/drawable/switch_thumb_pressed_holo_light.xml" value="0.209375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19270833333333334" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.15081521739130435" />
-        <entry key="app/src/main/res/layout/fragment_article.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_article.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.19270833333333334" />
         <entry key="app/src/main/res/layout/fragment_bookmark.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_cabinet.xml" value="0.25" />

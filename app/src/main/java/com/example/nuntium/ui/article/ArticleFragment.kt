@@ -56,8 +56,6 @@ class ArticleFragment : ContainsFragment(R.layout.fragment_article) {
             })
         }
 
-
-
         if (isDark) {
             binding.tvTitle.setTextColor(Color.parseColor("#FFFFFF"))
             binding.tvDescription.setTextColor(Color.parseColor("#FFFFFF"))
